@@ -1,0 +1,137 @@
+<!--This is a trial & error codes for Block-level,Inline Element,Margin & Padding, Semantic & Non-Semantic Markup(list)-->
+<!DOCTYPE html>
+<html class="soccer">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<title>HTML Practice</title>
+</head>
+<body>
+	<h1 class="Block"><b> A. Block Level & Inline Element</b></h1>
+	<li class="one">A block-level element always starts on a new line and takes up the full width available .
+	<p>Example:</p><h4>Block level example</h4>
+	<h4>Block level example</h4></li>
+	<ol><li class="one">An inline element does not start on a new line and only takes up as much width as necessary.
+	<p>Example:</p><a href="https://www.w3schools.com/html/default.asp">W3schools</a>
+	<a href="https://www.datacamp.com/">DataCamp</a></li></ol>
+
+	<h2 class="two"><b> A.1 Practice of Block-level Element Tags</b></h2>
+	<h3>1.Address:</h3>
+	<address>
+		Written by <a href="https://www.facebook.com/amuntaseer">Adnan Muntaseer</a><br>
+		Visit at:<br>
+		Example.com
+	</address>
+	<h3>2.Article:</h3>
+	<article>
+		<h4>This is an example of using Article (block-element) tag.</h4>
+		<p>This tag is mostly use for Blog-post, Newspaper etc.</p>
+	</article>
+	<h3>3.Aside:</h3>
+	<aside><h4>The aside tag defines some content aside from the content it is placed in.</h4>
+		<p>It means it provides added information to the article related topic.</p></aside>
+	<h3>4.Blockquote:</h3>
+	<h4>The blockquote element tag specifies a section that is taken from another source</h4>
+	<p>Here is a quote from WWF website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+	<h3>5.dd,dl,dt:</h3>
+	<p>The dd tag is used to describe a term/name in a description list. dl (defines a description list) and dt (defines terms/names).</p>
+	<dl>
+		<dt>Sugar</dt>
+		<dd>It is a sweet element used in tea.</dd></dl>
+	<dl>
+		<dt>Coffee</dt>
+		<dd>It can be milk or raw coffee.</dd>
+	</dl>
+	<h3>6.li,ul,ol:</h3>
+	<p>All of them describes list in order or un-order state.</p>
+	<ol><li>Sugar</li>
+		<li>Tea</li>
+	</ol>
+
+	<h3>7.Form:</h3>
+	<p>The form tag is used to create an HTML form for user input.</p>
+	<form action="/action_page.php" method="get">
+		<label for="fname">First name:</label>
+		<input type="text" id="name" name="fname"><br>
+		<label for="lname">Last name:</label>
+		<input type="text" id="name" name="lname"><br>
+		<label for="pwd">Password:</label>
+		<input type="password" id="pwd" name="pwd"><br>
+	</form>
+	<h3>8.hr:</h3>
+	<p>The hr tag defines a thematic break in an HTML language page.</p>
+	<hr>
+	<h3 class="four">CSS:</h3>
+	<p>Cascading Style Sheet.</p>
+	<h3 id="five">9.Fieldset:</h3>
+	<p>Fieldset is used to group related elements in a HTML form.</p>
+	<form action="/action_page.php" method="get">
+	<fieldset>
+		<legend>Personal Information:</legend>
+		<label for="fname">First name:</label>
+		<input type="text" id="name" name="fname"><br>
+		<label for="lname">Last name:</label>
+		<input type="text" id="name" name="lname"><br>
+		<label for="pwd">Password:</label>
+		<input type="password" id="pwd" name="pwd"><br>
+	</fieldset>
+	<form>
+	<h3>Video:</h3>
+	<video width="200" height="200" controls autoplay><source src="video/Waterfall.mp4" type="video/mp4"></video>
+	<h3 id="mega">Other Block-level elements are:</h3>
+	<p class="six">div, figcaption, figure, footer, main, nav, noscript, pre, section, table, tfoot</p>
+
+	<h2 class="two"><b> A.2 Practice of Inline Element Tags</b></h2>
+	<h3>1. bdo:</h3>
+	<p>BDO stands for Bi-Directional Override. The bdo tag is used to override the current text direction.</p>
+	<bdo dir="ltr">My name is adnan muntaseer</bdo>
+	<h3>2. button:</h3>
+	<p>Inside a button element you can put content, like text or images. This is the difference between this element and buttons created with the input element.</p>
+	<button type="button" onclick="alert('Hello World')">Click me</button>
+	<h3>3. cite:</h3>	
+	<p>The cite tag defines the title of a work (e.g. a book, a song, a movie, a painting, a sculpture, etc.).</p>
+	<p><cite>The Scream</cite> by Adnan Muntaseer</p>
+	<h3>4. code:</h3>
+	<code>It defines a piece of computer code.</code>
+	<h3>5. kbd:</h3>
+	<kbd>It defines keyboard input.</kbd>
+	<h3>6. dfn:</h3>
+	<p><dfn>HTML</dfn> it defines the definiton of the related topics.</p>
+	<h3>7. object:</h3>
+	<p>The object tag defines a container for an external resource.</p>
+	<object data="image/BMW.jpg" width="100" height="100"></object>
+	<object data="image/VW.jpg" width="100" height="100"></object>
+	<h3>8. select:</h3>
+	<p>The select tag is used to create a drop-down list.</p>
+	 <label for="cars">Choose a car:</label>
+	<select id="cars">
+  	<option value="volvo">Volvo</option>
+  	<option value="saab">Saab</option>
+  	<option value="mercedes">Mercedes</option>
+  	<option value="audi">Audi</option>
+	</select>
+	<h3>9. span:</h3>
+	<p>The span tag is an inline container used to mark up a part of a text, or a part of a document.</p>
+	<p>My mother has <span style="color: blue">blue</span> eyes.</p>
+	<h3>10. textarea:</h3>
+	<p>The textarea tag defines a multi-line text input control.</p>
+	<label for="w3missions">w3Schools Aim:</label>
+	<textarea id="head" rows="4" cols="50">At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.</textarea>
+	<h3>11. time:</h3>
+	<p>We have class at <time>10.00 am.</time></p>
+
+	<h3 id="mega">Other Inline elements are:</h3>
+	<p class="six">acronym, big, em, kbd, map, output, q, samp, script, small, sub, sup, tt, var.</p>
+
+	<h1 class="two"><b> B. Margin & Padding</b></h1>
+
+	<div class="box1">Hello</div>
+	<div class="box2">Bye</div>
+
+	<h2 class="two">C. Semantic and Non-Semantic Markup</h2>
+	<img src="images/1.jpg" alt="Semantic Markup" width="200" height="">
+	<img src="images/2.jpg" alt="Non-Semantic Markup" width="200" height="">
+
+	<p class="trial"> Thank You !</p>
+</body>
+</html>

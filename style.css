@@ -1,0 +1,88 @@
+.Block{
+	color: red;
+	
+}
+.one{
+	color: black;
+	list-style-type: square;
+}
+.two{
+	color: purple
+}
+.four{
+	background-color: powderblue;
+}
+#five{
+	color:#341f97;
+}
+.six{
+	color: red;font-size: 30px;
+}
+#mega{
+	font-family: verdana; 
+}
+#id{background-color: pink; }
+
+.box1{
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+	margin: 50px;
+	
+
+}
+.box2{
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	padding-right: 50px;
+	margin: 50px;
+	border: 5px;
+	border color: purple;
+	border-style: dotted; 
+}
+
+.trial{
+	text-align: center;
+	background-color: powderblue;
+	font-size: 30px;
+	
+
+}
+
+.soccer{
+	background-image: url(../images/final.jpg);
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: hard-light;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+
+}
+ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	font-family: Arial;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	display: block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: none;
+}
+ul li a:.hover{
+	background-color: green;
+}
